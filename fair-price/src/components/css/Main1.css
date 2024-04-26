@@ -1,0 +1,135 @@
+section {
+  min-width: 100px;
+}
+
+.main1 {
+  position: relative;
+}
+
+.main1-img {
+  position: relative;
+}
+
+.main1-img > img {
+  position: absolute;
+  left: -185px;
+  top: -65px;
+}
+
+.main1-text {
+  font-family: "Poppins", sans-serif;
+  color: #364547;
+  position: relative;
+  top: 15px;
+  right: 60px;
+}
+
+.main1-text > p {
+  font-size: 49px;
+  line-height: 0.5px;
+  font-weight: 100;
+}
+
+.main1-text > h1 {
+  font-size: 49px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.main1-text > h1 > span {
+  font-size: 49px;
+  font-weight: 700;
+  color: #ef8d21;
+}
+
+.main1-p {
+  position: relative;
+}
+
+.main1-p > p {
+  width: 551px;
+  height: 79px;
+  font-family: "Poppins", sans-serif;
+  color: #364547;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  position: absolute;
+  right: 352px;
+}
+
+.main1-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  border: 1px solid #ededed;
+  background: #ffffff;
+  border-radius: 50px;
+  height: 75px;
+  width: 100%;
+  min-width: 850px;
+  position: relative;
+  top: 8rem;
+  left: -8rem;
+  z-index: 100;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.inputs > input {
+  border: none;
+  height: 30px;
+}
+
+.inputs > input:focus {
+  outline: none; /* Remove outline on focus */
+}
+
+.inputs > input:active {
+  border: none; /* Remove border on active */
+}
+
+.inputs > input::placeholder {
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #8f8f8f;
+}
+
+.main1-btn {
+}
+
+.main1-btn > button {
+  border: 2px solid #000;
+  background: #ffffff;
+  border-radius: 50px;
+  width: 100%;
+  min-width: 134px;
+  height: 46px;
+  color: #000;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  box-shadow: 0 4px 8px #ef8d21;
+}
+
+.main1-line {
+  height: 33.5px;
+  width: 1px;
+  background: #9e9e9e;
+}
+
+.main1-last {
+  position: relative;
+}
+
+.main1-last > img {
+  position: absolute;
+  left: -295px;
+}

@@ -13,10 +13,15 @@ function Main2() {
         <div className="main-2--img">
           <img src={vec9} alt="" />
           <img src={vec4} alt="" />
+          <p>
+            Starting from <span>$40</span>
+          </p>
           <img src={vec7} alt="" />
           <img src={vec6} alt="" />
           <img src={vec5} alt="" />
         </div>
+
+        <img src={vec8} alt="" />
       </section>
     </div>
   );

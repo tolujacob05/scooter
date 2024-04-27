@@ -79,7 +79,11 @@ nav > ul > li {
 
 @media screen and (max-width: 480px) {
   nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     min-width: 0px;
+    gap: 0rem;
+    /* justify-content: ; */
   }
 
   .nav-logo > img {
@@ -92,6 +96,13 @@ nav > ul > li {
 
   nav > ul > li {
     font-size: 12px;
+  }
+
+  .nav-btn {
+    position: absolute;
+    bottom: -48rem;
+    right: 25px;
+    padding-bottom: 2rem;
   }
 
   .nav-btn > span {

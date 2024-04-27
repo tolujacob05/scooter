@@ -3,26 +3,152 @@
 }
 
 .main-2--img {
-  position: absolute;
+  position: relative;
+  left: 70px;
 }
 
+/* .main-2--img {
+  position: relative;
+} */
+
 .main-2--img > img:nth-of-type(1) {
-  position: inherit;
+  position: absolute;
+  top: -105px;
+  right: 150px;
 }
 
 .main-2--img > img:nth-of-type(2) {
-  position: inherit;
+  position: absolute;
   z-index: 100;
+  right: 15px;
+  top: -110px;
 }
 
 .main-2--img > img:nth-of-type(3) {
-  position: inherit;
+  position: absolute;
+  right: -80px;
+  top: 85px;
 }
 
 .main-2--img > img:nth-of-type(4) {
-  position: inherit;
+  position: absolute;
+  right: -60px;
+  top: 100px;
 }
 
 .main-2--img > img:nth-of-type(5) {
+  position: absolute;
+  right: -45px;
+  top: 115px;
+}
+
+.main-2--img > p {
+  width: 142px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #364547;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  z-index: 100;
+  bottom: 0px;
+  right: -130px;
+}
+
+.main-2--img > p > span {
+  color: #ef8d21;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 55px;
   position: inherit;
+  right: 40px;
+  top: 30px;
+}
+
+.main-2 > img {
+  position: absolute;
+  top: 250px;
+  left: 80px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main-2--img {
+    position: relative;
+    left: -10px;
+    top: 150px;
+  }
+
+  .main-2 > img {
+    position: absolute;
+    top: 450px;
+    left: 670px;
+    /* height: 350px; */
+    /* width: 00px; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-2--img {
+    position: relative;
+    left: -10px;
+    top: 250px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-2--img {
+    position: relative;
+    left: -40px;
+    top: 350px;
+  }
+
+  .main-2--img > img:nth-of-type(1) {
+    position: absolute;
+    top: -105px;
+    right: 150px;
+    width: 90px;
+  }
+
+  .main-2--img > img:nth-of-type(2) {
+    right: 75px;
+    top: -100px;
+    width: 150px;
+  }
+
+  .main-2--img > img:nth-of-type(3) {
+    right: 15px;
+    top: 45px;
+    width: 250px;
+  }
+
+  .main-2--img > img:nth-of-type(4) {
+    right: 25px;
+    top: 50px;
+    width: 230px;
+  }
+
+  .main-2--img > img:nth-of-type(5) {
+    right: 40px;
+    top: 60px;
+    width: 200px;
+  }
+
+  .main-2--img > p {
+    width: 102px;
+    font-size: 15px;
+    bottom: 0px;
+    right: -30px;
+  }
+
+  .main-2--img > p > span {
+    font-size: 35px;
+    right: 35px;
+    top: 30px;
+  }
+
+  .main-2 > img {
+    position: absolute;
+    top: 500px;
+    left: 215px;
+    height: 200px;
+  }
 }

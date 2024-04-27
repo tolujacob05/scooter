@@ -1,6 +1,6 @@
-section {
-  min-width: 100px;
-}
+/* section {
+  min-width: 0;
+} */
 
 .main1 {
   position: relative;
@@ -12,32 +12,31 @@ section {
 
 .main1-img > img {
   position: absolute;
-  left: -185px;
+  left: -155px;
   top: -65px;
 }
 
 .main1-text {
   font-family: "Poppins", sans-serif;
+  font-size: 49px;
   color: #364547;
   position: relative;
   top: 15px;
-  right: 60px;
+  left: -40px;
+  /* width: ; */
 }
 
 .main1-text > p {
-  font-size: 49px;
   line-height: 0.5px;
   font-weight: 100;
 }
 
 .main1-text > h1 {
-  font-size: 49px;
   line-height: 50px;
   font-weight: 700;
 }
 
 .main1-text > h1 > span {
-  font-size: 49px;
   font-weight: 700;
   color: #ef8d21;
 }
@@ -55,7 +54,7 @@ section {
   font-weight: 400;
   line-height: 25px;
   position: absolute;
-  right: 352px;
+  left: -35px;
 }
 
 .main1-inputs {
@@ -68,7 +67,7 @@ section {
   border-radius: 50px;
   height: 75px;
   width: 100%;
-  min-width: 850px;
+  min-width: 700px;
   position: relative;
   top: 8rem;
   left: -8rem;
@@ -85,6 +84,7 @@ section {
 .inputs > input {
   border: none;
   height: 30px;
+  width: 100px;
 }
 
 .inputs > input:focus {
@@ -101,9 +101,6 @@ section {
   font-weight: 400;
   font-size: 15px;
   color: #8f8f8f;
-}
-
-.main1-btn {
 }
 
 .main1-btn > button {
@@ -131,5 +128,149 @@ section {
 
 .main1-last > img {
   position: absolute;
-  left: -295px;
+  left: -250px;
+  top: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .main1-img > img {
+    left: 15px;
+    top: -70px;
+    width: 180px;
+    /* min-width: 300px; */
+  }
+
+  .main1-text {
+    top: -5px;
+    left: 95px;
+    font-size: 25px;
+  }
+
+  .main1-p > p {
+    width: 371px;
+    font-size: 14px;
+    line-height: 20px;
+    left: 100px;
+    top: -25px;
+  }
+
+  .main1-inputs {
+    gap: 1.5rem;
+    height: 55px;
+    width: 100%;
+    min-width: 650px;
+    top: 8rem;
+    left: 3.5rem;
+  }
+
+  .inputs > input {
+    height: 30px;
+    width: 100px;
+  }
+
+  .main1-last > img {
+    height: 235px;
+    left: -50px;
+    width: 250px;
+    /* height: 350px; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-1 {
+    width: 250px;
+  }
+
+  .main1-img > img {
+    left: 15px;
+    top: -70px;
+    width: 180px;
+    /* min-width: 300px; */
+  }
+
+  .main1-text {
+    top: -5px;
+    left: 95px;
+    font-size: 25px;
+  }
+
+  .main1-p > p {
+    width: 371px;
+    font-size: 14px;
+    line-height: 20px;
+    left: 100px;
+    top: -25px;
+  }
+
+  .main1-inputs {
+    gap: 1.5rem;
+    height: 55px;
+    /* width: 100%; */
+    width: 320px;
+    top: 8rem;
+    left: 5rem;
+  }
+
+  .inputs > input {
+    height: 30px;
+    width: 120px;
+  }
+
+  .main1-last > img {
+    height: 235px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main1-img > img {
+    width: 130px;
+    /* min-width: 300px; */
+  }
+
+  .main1-text {
+    top: -30px;
+    left: 75px;
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .main1-text > h1 {
+    line-height: 50px;
+    font-weight: 700;
+    /* width: 100px; */
+  }
+
+  .main1-p > p {
+    width: 281px;
+    font-size: 13px;
+    left: 50px;
+    top: -25px;
+  }
+
+  .main1-inputs {
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+    height: 300px;
+    left: 0rem;
+  }
+
+  .main1-line {
+    display: none;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputs > input {
+    height: 40px;
+    width: 250px;
+  }
+
+  .main1-last > img {
+    height: 235px;
+    top: 70px;
+  }
 }

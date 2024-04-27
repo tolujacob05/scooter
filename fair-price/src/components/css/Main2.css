@@ -97,7 +97,7 @@
 @media screen and (max-width: 480px) {
   .main-2--img {
     position: relative;
-    left: -40px;
+    left: -0px;
     top: 350px;
   }
 
@@ -148,7 +148,7 @@
   .main-2 > img {
     position: absolute;
     top: 500px;
-    left: 215px;
+    left: 230px;
     height: 200px;
   }
 }
